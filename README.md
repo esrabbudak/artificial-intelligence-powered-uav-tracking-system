@@ -70,26 +70,37 @@ You can install the necessary packages using the command:
 ```bash
 pip install -r requirements.txt
 
-## Detailed Description
-
-### Graphical Processing Units (GPUs)
+Detailed Description
+Graphical Processing Units (GPUs)
 GPUs are crucial for the execution of deep learning algorithms. They consist of multiple multiprocessors (MPs), each containing many stream processors (SPs). The GPU architecture and execution flow using the Compute Unified Device Architecture (CUDA) toolkit by Nvidia are discussed in detail in the project documentation.
 
-### Deep Learning
+Deep Learning
 Deep learning allows computers to learn from data without explicit programming. This project uses Convolutional Neural Networks (CNNs), a type of deep learning algorithm, for image classification and route identification. The CNN architecture involves multiple layers, including convolutional, pooling, and fully connected layers, as depicted in the project documentation.
 
-### Disaster Management System
+Disaster Management System
 The proposed system consists of three main layers:
-1. **Input Layer**: Manages traffic data for training and testing the deep learning model. It handles both offline (historical) and real-time data.
-2. **Data Processing Layer**: Processes input data, normalizes it, and prepares it for the deep learning algorithm.
-3. **Deep Learning Layer**: Uses a deep regression model to estimate vehicle flow values. The model includes one input layer, two hidden layers, and one output layer.
 
-### Datasets
+Input Layer: Manages traffic data for training and testing the deep learning model. It handles both offline (historical) and real-time data.
+Data Processing Layer: Processes input data, normalizes it, and prepares it for the deep learning algorithm.
+Deep Learning Layer: Uses a deep regression model to estimate vehicle flow values. The model includes one input layer, two hidden layers, and one output layer.
+Datasets
 The project utilizes various traffic datasets from multiple sources in Turkey and other countries. These datasets are essential for training and testing the deep learning model.
 
-## Test Results and Performance
+Test Results and Performance
 The project documentation includes detailed test results and performance metrics for the deep learning model.
 
-## Quadcopter UAV
+Quadcopter UAV
 The quadcopter is designed for stability and equipped with advanced sensors and control systems. Its components and usage in this project are detailed in the project documentation.
+
+Conclusion
+The project aims to improve disaster management by providing real-time information on the best evacuation routes using UAVs and deep learning. The combination of hardware and software components creates an efficient system for disaster response and management.
+
+How to Run the Project
+Set up the Hardware: Assemble the quadcopter with the specified components.
+Install the Required Software: Ensure you have Python and the required packages installed.
+Train the Model: Use the provided dataset to train the deep learning model.
+Deploy the Model: Deploy the trained model using Python and OpenCV.
+Execute the System: Capture real-time data using the quadcopter and process it through the deployed model to identify the best evacuation routes.
+Contact
+For any questions or further information, please contact [Your Name] at [Your Email].
 
