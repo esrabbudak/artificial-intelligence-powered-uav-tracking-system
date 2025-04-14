@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "username": "julia",
+            "password": "4df0583cd87d8047c841083e851a4922d49698f9cfafe57fc5360f5ada71ec2a",
+            "email": "julia3434@gmail.com",
+            "Activation": "Y",
+            "timeout": ""
+        },
+        {
+            "username": "esra",
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "email": "esra.bdk34@gmail.com",
+            "Activation": "Y",
+            "timeout": ""
+        },
+        {
+            "username": "buse",
+            "password": "011af72a910ac4acf367eef9e6b761e0980842c30d4e9809840f4141d5163ede",
+            "email": "esrabdkk36@gmail.com",
+            "Activation": "Y",
+            "timeout": "",
+            "attempt": 2
+        },
+        {
+            "username": "mayk",
+            "password": "011af72a910ac4acf367eef9e6b761e0980842c30d4e9809840f4141d5163ede",
+            "email": "esrabdkk36@gmail.com",
+            "Activation": "Y",
+            "timeout": "",
+            "attempt": 0
+        },
+        {
+            "username": "deneme",
+            "password": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+            "email": "esrabdkk36@gmail.com",
+            "Activation": "Y",
+            "timeout": "",
+            "attempt": 0
+        }
+    ]
+}
